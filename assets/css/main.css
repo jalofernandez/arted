@@ -1,0 +1,800 @@
+body {
+    background: transparent url(../img/portf-bg.jpg) repeat top left;
+    font-family: 'Raleway', helvetica, verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Responsive Images */
+img {max-width: 100%; height: auto;}
+
+/* Titles */
+h1 {
+    font-family: Impact, sans-serif;
+    font-weight: 2em;
+    color: #fff;
+    text-shadow: 0 1px #000, 1px 0 #000, -1px 0 #000, 0 -1px #000, -1px -1px #000, 1px 1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+h2, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #666;
+}
+
+h3 {
+    font-family: Impact, sans-serif;
+    color: #cab68e;
+    text-shadow: 0 1px #000, 1px 0 #000, -1px 0 #000, 0 -1px #000, -1px -1px #000, 1px 1px #000, 1px -1px #000, -1px 1px #000;
+    text-transform: uppercase;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    font-family: 'Raleway', helvetica, verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+em {color:#C0C0C0;}
+
+.centered {
+    text-align: center;
+}
+
+/* List */
+
+li {list-style: none; text-align: left;}
+
+/* Links */
+a {
+    color: #ffffff;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.2s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.2s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.2s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.2s ease-in;
+    transition: color 0.1s ease-in, background 0.2s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #cab68e;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cab68e;
+    margin: .5em 0;
+    padding: 0;
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    color:#000;
+}
+
+nav a:hover {
+    color:#FC0;
+}
+
+/* ==========================================================================
+   FONT FACE
+   ========================================================================== */
+
+@font-face{ 
+	font-family: 'WC_RoughTrad-webfont';
+	src: url('assets/fonts/WC_RoughTrad-webfont.eot');
+	src: url('assets/fonts/WC_RoughTrad-webfont.eot?iefix') format('eot'),
+	     url('assets/fonts/WC_RoughTrad-webfont.woff') format('woff'),
+	     url('assets/fonts/WC_RoughTrad-webfont.ttf') format('truetype'),
+	     url('assets/fonts/WC_RoughTrad-webfont.svg#webfont') format('svg');
+}
+
+/* ==========================================================================
+   CUSTOM ID + CLASS
+   ========================================================================== */
+
+.bckgrnd {background: transparent url(../img/portf-bg.jpg) repeat top left;}
+
+.contfoot {background-color: #191919}
+
+.handy {
+    font-family: 'Handlee', verdana, sans-serif;
+    text-transform: lowercase;
+    font-size: 1.2em;
+}
+
+.intro {
+    font-family: Impact, verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #e0e0e0;
+    letter-spacing: .03em;
+}
+
+.linked {
+    font-family: 'Raleway', helvetica, verdana, sans-serif;
+	font-size: 1em;
+	color: #f2f2f2;
+}
+
+.linked:hover {
+	color: #cab68e;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+.footercontact i {
+    width:20px;
+}
+
+#navportfolio {font-size: .8em;}
+
+.blue {color:#cab68e; text-shadow: 0 1px #000, 1px 0 #000, -1px 0 #000, 0 -1px #000, -1px -1px #000, 1px 1px #000, 1px -1px #000, -1px 1px #000;}
+
+.yellow {color:#cab68e;}
+
+.btn-min {min-width: 190px;}
+
+.og-details p {font-size: 2em;}
+
+.navfooter {padding-top: 20px;}
+
+.named {font-size:1.2em;}
+
+.azul {text-transform: uppercase; color:#cab68e;}
+
+.fa-caret-down {padding-left: 5px; color:#2a6496;}
+
+.padd {padding: 0 5px;}
+
+/* ==========================================================================
+   MODAL DIALOG :: CURRICULUM VIATE :: INDEX
+   ========================================================================== */
+
+#f .panel-body p {text-align: left; font-size: 1em; line-height: 1.6em; color:#efede9;}
+
+#f .panel-body .blanco {color:#cab68e; font-size: 1em; text-transform: uppercase; padding-right: 5px;}
+
+#f .panel-body .arena {color:#cab68e;}
+
+#f .panel-body .blanco i {padding-right: 15px;}
+
+#f .panel-body .paragraph p {font-size:.8em;}
+
+#f .panel-body .gris a {padding-left: 10px; color:#989898;}
+
+#f .panel-body .gris a:hover {color:#fff;}
+
+#f .panel-body .type {padding-left: 5px; color:#e0e0e0;}
+
+#accordion .panel-group {background-color: transparent;}
+
+.panel {background-color: transparent;}
+
+.panel-default {background-color: transparent; border-color: transparent;}
+
+.panel-heading {background-color: transparent;}
+
+.panel-heading h4 {text-align: left; padding-left: 10px;}
+
+.panel-title {background-color: transparent;}
+
+.samples {font-size:.8em;}
+
+.logos i {padding: 0 5px 25px;}
+
+
+.panel-title a {
+    color:#fff;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.panel-title a:hover {
+    color:#cab68e;
+    background-color: #181818;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    line-height: 1;
+    max-width: 100%;
+    color:#cab68e;
+    text-shadow: 0 1px #000, 1px 0 #000, -1px 0 #000, 0 -1px #000, -1px -1px #000, 1px 1px #000, 1px -1px #000, -1px 1px #000;
+    font-size: 1.5em;
+    font-family: Impact, sans-serif;
+}
+
+
+
+
+/* ==========================================================================
+   INTRO HOME SLIDERSHOW
+   ========================================================================== */
+
+.sliderShow {
+    padding: 0;
+}
+
+
+
+
+/* ==========================================================================
+   MY PROYECTS SLIDER and NAV
+   ========================================================================== */
+
+#proynav {margin-bottom:15px; font-family:'Raleway', helvetica, verdana, sans-serif; font-size:1.1em;}
+
+#proynav li a {color:#fff;}
+
+#proynav li a:hover {color:#cab68e; background-color:#000;}
+
+#dropnav li a {color:#cab68e; font-size: 1.2em; text-align: left; background-color:#000;}
+
+#dropnav li a:hover {color:#fff;}
+
+/* ==========================================================================
+   SOCIAL MEDIA COLORS  ::  footer, modal dialog...
+   ========================================================================== */
+
+#f #facebook:hover, .socialmodal #facebook:hover {
+    color: #3b5998;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f #twitter:hover, .socialmodal #twitter:hover {
+    color: #00aced;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f #instagram:hover, .socialmodal #instagram:hover {
+    color: #517fa4;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f #linkedin:hover, .socialmodal #linkedin:hover {
+    color: #3B5998;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f #envelope:hover, .socialmodal #envelope:hover {
+    color: #cb2027;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f #phone:hover, .socialmodal #phone:hover {
+    color: #aad450;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background-color: transparent;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 50px;
+	color: white;
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#headerwrap h3 {
+	font-size: 1.75em;
+    margin-top: -15px;
+}
+
+#headerwrap .main h3 {font-size: 1.85em;}
+
+/* F Wrap :: SECTIONS , ETC. */
+
+#f {
+    background-color: transparent;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    text-align: center;
+}
+
+#f h3 {
+	color: #cab68e;
+	font-size: 2.2em;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#f .socialmedia i {
+    font-size: 1.5em;
+	color: #f2f2f2;
+    padding: 0 10px;
+}
+
+#f .socialmedia i:hover {
+	color: #FC0;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f p {
+    font-family: 'Raleway', helvetica, verdana, sans-serif;
+	font-size: 1.2em;
+	color: #f2f2f2;
+}
+
+#f img {
+	text-align: center;
+}
+
+/* OPENING - INDEX - Footer Wrap :: comic bckgrnd */
+
+#open {text-align: left;}
+
+#open p i {text-align: center;}
+
+.spin {margin: 12px 0;}
+
+/* Footer2 Wrap :: WOODEN BCKGRND */
+
+#f2 {
+    background-color: transparent;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#f2 h3 {
+	color: #cab68e;
+	font-size: 2.2em;
+	font-weight: 700;
+	letter-spacing: 1px;	
+}
+
+#f2 i {
+	font-size: 8px;
+	color: #fff;
+    padding: 3px;
+}
+
+#f2 p {
+	font-size: 20px;
+	color: #f2f2f2;
+}
+
+#f2 img {
+	text-align: center;
+}
+
+/* Footer Wrap :: BLACK BCKGRND */
+
+#f3 {
+    background-color: #181818;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#f3 ul li a {color: #666666; font-size: .9em;}
+
+#f3 ul li a:hover {
+    color: #cab68e;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f3 ul li a i {padding-right: 5px;}
+
+#f3 ul li a small {padding-left: 10px;}
+
+#f3 h6 a {color:#666666;}
+
+#f3 h6 a:hover {
+    color: #cab68e;
+    -webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+#f3 h6 a i {padding-right: 5px;}
+
+/* MENU CONF*/
+
+.menu {
+	position: fixed;
+	right: -200px;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	text-align: left;
+}
+
+.menu.menu-open {
+	right: 0px;
+}
+
+.menu-wrap {
+	position: absolute;
+	top: 0;
+	left: 60px;
+	background: #1a1a1a;
+	width: 200px;
+	height: 100%;
+}
+
+.menu h1.logo a {
+	font-family: 'Telex', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+.menu h1.logo a:hover {
+	color: #f85c37;
+}
+
+.menu img.logo {
+	margin: 20px 0;
+	max-width: 160px;
+}
+
+.menu a {
+	margin-left: 20px;
+	color: #808080;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.menu a:hover {
+	color: #ffffff;
+}
+
+.menu a:active {
+	color: #ffffff;
+}
+
+.menu a > i {
+	float: left;
+	display: inline-block;
+	vertical-align: middle; 
+	text-align: left;
+	width: 25px;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 25px 2px;
+}
+
+.menu-close {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: #808080;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 20px;
+	right: 5px;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+.menu-close:hover {
+	color: #ffffff;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+/* Push the body after clicking the menu button */
+.body-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.body-push-toright {
+	left: 200px;
+}
+
+.body-push-toleft {
+	left: -200px;
+}
+
+.menu,
+.body-push {
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		 -o-transition: all .3s ease;
+			transition: all .3s ease;
+}
+
+#menuToggle {
+	position: absolute;
+	top: 20px;
+	left: -30px;
+	z-index: 11;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.25);
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+#menuToggle:hover {
+	color: #ffffff;
+	background: rgba(0,0,0,0.2);
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+.tab-pane a {color:#cab68e;}
+.tab-pane a:hover {color:#fff;}
+
+/* ==========================================================================
+   PARALLAX  EFFECT
+========================================================================== */
+
+#parallax-back {
+			background: transparent url(../img/portf-bg.jpg) repeat top left;
+			position: absolute;
+			height: 500px;
+			width: 100%;
+			z-index: 1;
+}
+
+#parallax-front {
+			position: relative;
+			/* background: transparent url(../img/shields-bg.png) repeat top left; */
+			z-index: 1000;
+}
+
+/* ==========================================================================
+   CSS para la animación y localización de los DIV de COOKIES
+========================================================================== */
+
+@keyframes desaparecer
+{
+0%	{bottom: 0px;}
+80%	{bottom: 0px;}
+100%	{bottom: -50px;}
+}
+@-webkit-keyframes desaparecer /* Safari and Chrome */
+{
+0%	{bottom: 0px;}
+80%	{bottom: 0px;}
+100%	{bottom: -50px;}
+}
+@keyframes aparecer
+{
+0%	{bottom: -38px;}
+10%	{bottom: 0px;}
+90%	{bottom: 0px;}
+100%	{bottom: -38px;}
+}
+@-webkit-keyframes aparecer /* Safari and Chrome */
+{
+0%	{bottom: -38px;}
+10%	{bottom: 0px;}
+90%	{bottom: 0px;}
+100%	{bottom: -38px;}
+}
+#cookiesms1:target {
+display: none;
+}
+.cookiesms{	
+width:100%;
+height:43px;
+margin:0 auto;
+padding-left:1%;
+padding-top:5px;
+font-size: 1em;
+clear:both;
+font-weight: strong;
+color: #666;
+bottom:0px;
+position:fixed;
+left: 0px;
+background-color: #000;
+opacity:0.8;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+transition: bottom 1s;
+-webkit-transition:bottom 1s; /* Safari */
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+z-index:999999999;
+}
+.cookiesms:hover{
+bottom:0px;
+}
+.cookies2{
+background-color: #000;
+display:inline;
+opacity:0.95;
+filter:alpha(opacity=95);
+position:absolute;
+left:1%;
+top:-30px;
+font-size:1em;
+height:30px;
+padding-left:25px;
+padding-right:25px;
+-webkit-border-top-right-radius: 15px;
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topright: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+}
+
+.cookiesms button {margin-left: 10px;}
+
+.botcen {text-align: center;}
+
+/* ==========================================================================
+   MEDIA QUERIES :: RESPONSIVE DESIGN
+========================================================================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    #headerwrap h1 {
+	font-size: 3.4em;
+    }
+    
+    #headerwrap h3 {
+	font-size: 1em;
+    margin-top: -10px;
+    }
+    
+    .intro {
+	font-size: 13em;
+    }
+}
+
+
+
+
+/* ==========================================================================
+   ARTED . ES / TEES
+========================================================================== */
+
+.teespics img {border: 2px solid #000;}
+
+.headtees {text-align: left;}
+
+#f .head {font-size: 3em; color:#fff;}
+
+#f .subhead {color:#cab68e;}
+
+/* Detalles ACCORDION de los Productos ----------- */
+#f .teedetails {font-size: .8em; padding-top: 20px;}
+
+#f .teedetails .blanco {font-size: 1.1em; letter-spacing: .1em;}
+
+#f .teedetails .price {font-size: 1.2em; letter-spacing: .1em; color: #fff; padding-left: 5px;}
+
+#f .teedetails .buylink {font-size: 1em; padding: 5px; border: 1px solid color:#cab68e;}
+
+/* Detalles de los Productos ----------- */
+.product {text-align: center;}
+
+.product h4 {text-align: center; font-size: 2em; text-transform: uppercase; color:#cab68e; font-family: Impact;}
+
+.product em {font-size: .8em; line-height: 1.3em; color: #E8E8E8;}
+
+.product div {margin: -5px 0 10px 0; text-align: center;}
+
+.prod-links a {font-size: .8em; color: #B8B8B8;}
+
+.prod-links a:hover {background-color: transparent;}

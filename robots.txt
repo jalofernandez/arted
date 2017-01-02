@@ -1,0 +1,5 @@
+﻿User-agent:*
+Disallow: /add.html
+Disallow: /imagen.php
+Crawl-delay: 30
+Sitemap: http://www.arted.es/sitemap.xml
